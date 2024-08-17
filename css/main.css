@@ -1,0 +1,33 @@
+:root {
+    --background-color: #ffffff; /* default light mode background */
+    --text-color: #333333; /* default text color */
+  }
+  
+  .dark-mode {
+    --background-color: #333333; /* dark mode background */
+    --text-color: #ffffff; /* dark mode text color */
+  }
+  
+  /* Example styles */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Styles for other elements */
+  
+.bg {
+    background-color: #bcbcbc;
+}
+
+.centering {
+    text-align: center;
+}
+
+.p-20 {
+    padding: 200px;
+}
+
+.pt-4 {
+    padding-top: 40px;
+}
